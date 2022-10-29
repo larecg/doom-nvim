@@ -26,7 +26,7 @@ return {
     "indentlines", -- Show indent lines with special characters
     "range_highlight", -- Highlight selected range from commands
     "todo_comments", -- Highlight TODO: comments
-    -- "doom_themes",     -- Extra themes for doom
+    "doom_themes",     -- Extra themes for doom
 
     -- UI Components
     "lsp_progress", -- Check status of LSP loading
@@ -35,7 +35,7 @@ return {
     -- "trouble",         -- A pretty diagnostic viewer
     "statusline", -- A pretty status line at the bottom of the buffer
     -- "minimap",         -- Shows current position in document
-    -- "terminal",        -- Integrated terminal in neovim
+    "terminal",        -- Integrated terminal in neovim
     -- "symbols",         -- Navigate between code symbols using telescope
     -- "ranger",          -- File explorer in neovim (TODO: Test)
     -- "restclient",      -- Test HTTP requests from neovim (TODO: Test)
@@ -47,7 +47,7 @@ return {
     "explorer", -- An enhanced filetree explorer
     -- "firenvim",        -- Embed neovim in your browser
     -- "lazygit",         -- Lazy git integration
-    -- "neogit",          -- A git client for neovim
+    "neogit",          -- A git client for neovim
     "neorg", -- Organise your life
     "projects", -- Quickly switch between projects
     -- "superman",        -- Read unix man pages in neovim
@@ -60,6 +60,8 @@ return {
     "lua",
     -- "python",
     -- "bash",
+    "python",
+    "bash",
     -- "fish",
     -- "gdscript",
     -- "gdscript",
@@ -67,10 +69,10 @@ return {
     -- "ruby",
 
     -- Web
-    -- "javascript",
-    -- "typescript",
-    -- "css",
-    -- "vue",
+    "javascript",
+    "typescript",
+    "css",
+    "vue",
     -- "tailwindcss",
     -- "svelte",
 
@@ -85,12 +87,12 @@ return {
     -- "kotlin",
     -- "java",
 
-    -- "json",
-    -- "yaml",
+    "json",
+    "yaml",
     -- "toml",
     -- "markdown",
     -- "terraform",       -- Terraform / hcl files support
-    -- "dockerfile",
+    "dockerfile",
     -- "nix",             -- Nix declarations
   },
 }

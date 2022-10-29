@@ -7,12 +7,12 @@
 -- ADDING A PACKAGE
 --
 -- doom.use_package("EdenEast/nightfox.nvim", "sainnhe/sonokai")
--- doom.use_package({
---   "ur4ltz/surround.nvim",
---   config = function()
---     require("surround").setup({mappings_style = "sandwich"})
---   end
--- })
+doom.use_package({
+  "ur4ltz/surround.nvim",
+  config = function()
+    require("surround").setup({mappings_style = "sandwich"})
+  end
+})
 
 -- ADDING A KEYBIND
 --
